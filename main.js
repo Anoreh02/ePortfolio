@@ -11,8 +11,9 @@ function closeMenu() {
 
 // Typewriter Effect
 const texts = [
-    "DEVELOPER",
-    "DESIGNER"
+    "GAME DEVELOPER",
+    "FULL-STACK DEVELOPER",
+    "WEB DESIGNER"
 ];
 
 let speed = 100;  // typing speed

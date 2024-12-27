@@ -16,38 +16,34 @@
             </div>
 
             <div class="links">
-                <div class="link"><a href="#">Home</a></div>
-                <div class="link"><a href="#">About</a></div>
-                <div class="link"><a href="#">Projects</a></div>
-                <div class="link"><a href="#">Contact</a></div>
+                <div class="link"><a href="#home">Home</a></div>
+                <div class="link"><a href="#about">About</a></div>
+                <div class="link"><a href="#skills">Skills</a></div>
+                <div class="link"><a href="#projects">Projects</a></div>
+                <div class="link"><a href="#footer">Contact</a></div>
             </div>
             <i class="fa-solid fa-bars hamburg" onclick="hamburg()"></i>
         </div>
             <div class="dropdown">
                 <div class="links">
-                    <a href="#">Home</a>
-                    <a href="#">About</a>
-                    <a href="#">Projects</a>
-                    <a href="#">Contact</a>
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#skills">Skills</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#footer">Contact</a>
                     <i class="fa-solid fa-xmark cancel" onclick="closeMenu()"></i>
                 </div>
             </div>
     </nav>
 
-    <section>
+    <section id="home">
         <div class="main-container">
             <div class="image">
-                <img src="myimage.jpg" alt="">
+                <img src="images/myimage.jpg" alt="">
             </div>
             <div class="content">
                 <h1>Hey I'm <span>Cyreh</span></h1>
-                <div class="typewriter">I'm a <span class="typewriter-text"></span><span class="cursor">|</span></div>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus dicta earum modi officia perspiciatis sint! Quibusdam blanditiis autem tenetur nulla, qui accusantium id repellat excepturi ex libero veritatis itaque vitae.</p>
-                <div class="social-links">
-                    <a href="https://github.com/Anoreh02" target="_blank" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
-                    <a href="https://www.facebook.com/cyreh.bayson.96/" target="_blank" aria-label="Facebook"><i class="fa-brands fa-facebook"></i></a>
-                    <a href="https://www.instagram.com/cy.anoreh/" target="_blank" aria-label="Facebook"><i class="fa-brands fa-instagram"></i></a>
-                </div>
+                <div class="typewriter">I'm a future <span class="typewriter-text"></span><span class="cursor">|</span></div>
             </div>
         </div> 
     </div>
@@ -58,64 +54,69 @@
         <div class="about-section">
             <div class="section-heading">
                 <article class="section-heading-article" tabindex="0" aria-label="About me heading">
-                AboutMe
+                About Me
                 </article>
                 <p class="sectionHeadingP"></p>
             </div>
+             <!-- Container for text and image -->
+          <div class="info-dp-section">
+            <div class="about-info">
+                <p tabindex="0">
+                    Hello! I’m Cyreh Angelo M. Bayson, a Computer Science student at the University of Science and Technology of Southern Philippines (USTP) in Cagayan de Oro. I’m passionate about web design and developer.
+                </p>
+                <br />
+                <p tabindex="0">
+                    I am dedicated to improving my skills in web design and development.
+                </p>
+                <br />
+            </div>
 
-            <div class="info-dp-section">
-                <div class="about-info">
-                    <p tabindex="0">
-                        Hello! I’m Cyreh Angelo M. Bayson, a Computer Science student at the University of Science and Technology of Southern Philippines (USTP) in Cagayan de Oro. I’m passionate about web design and development, and I strive to create websites that are both functional and visually appealing, always focusing on delivering a seamless user experience.
-                    </p>
-                    <br />
-                    <p tabindex="0">
-                        I am dedicated to improving my skills in web design and development.
-                    </p>
-                    <br />
-                </div>
+            <div class="image">
+                <img src="images/myimage2.jpg" alt="Profile Image">
             </div>
         </div>
+  </div>
     </section>
     <!-- about section ends -->
     <!-- skills section starts -->
-<section class="skills-section-container" id="skills">
-    <div class="skills-section">
-      <div class="section-heading">
-        <article class="section-heading-article" tabindex="0" aria-label="Skills heading">
-          Skills
-        </article>
-        <p class="sectionHeadingP">Technologies I’ve worked with</p>
-      </div>
-  
-      <div class="skills-info">
-        <div class="skills-category">
-          <h3>Programming Languages</h3>
-          <ul>
-            <li>C</li>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>Java</li>
-            <li>Python</li>
-            <li>JavaScript</li>
-          </ul>
+    <section class="skills-section-container" id="skills">
+        <div class="skills-section">
+          <div class="section-heading">
+              <article class="section-heading-article" tabindex="0" aria-label="Skills heading">
+              Skills
+              </article>
+              <p class="sectionHeadingP">Technologies I’ve worked with</p>
+          </div>
+    
+          <div class="skills-info">
+              <div class="skills-category">
+                <h3>Programming Languages</h3>
+                <ul>
+                    <li>C</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Java</li>
+                    <li>Python</li>
+                    <li>JavaScript</li>
+                </ul>
+              </div>
+    
+            <div class="skills-category">
+              <h3>Utilities</h3>
+              <ul>
+                  <li>MongoDB</li>
+              </ul>
+            </div>
+          </div>
         </div>
-  
-        <div class="skills-category">
-          <h3>Utilities</h3>
-          <ul>
-            <li>MongoDB</li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </section>
+    </section>
   <!-- skills section ends -->    
       <!-- Projects Section -->
       <section class="projects-section-container" id="projects">
         <div class="projects-section-div">
           <div class="section-heading">
             <article class="section-heading-article" tabindex="0">
+              Projects
             </article>
             <p class="sectionHeadingP"></p>
           </div>
@@ -125,38 +126,24 @@
                 <div class="info-div">
                   <article class="ProjectHeading">Turing Machine Simulator</article>
                   <p class="ProjectDescription">
-                    Turing Machine Simulator that allows users to design, simulate, and visualize Turing machine operations. It features an interactive tape, customizable states and transitions, and step-by-step execution to help users understand how Turing machines process input and change states.                  </p>
-                  <button class="cta">
-                    <span>Visit GitHub</span>
-                    <svg viewBox="0 0 13 10" height="10px" width="15px">
-                      <path d="M1,5 L11,5"></path>
-                      <polyline points="8 1 12 5 8 9"></polyline>
-                    </svg>
-                  </button>
+                    Turing Machine Simulator that allows users to design, simulate, and visualize Turing machine operations. It features an interactive tape, customizable states and transitions, and step-by-step execution to help users understand how Turing machines process input and change states.</p>
                 </div>
                 <div class="image-div">
-                  <img src="src/jpg/lexus.png" alt="Lexus Project Image" />
+                  <img src="images/turingmachine.png" alt="Lexus Project Image" />
                 </div>
               </div>
             </a>
       
-            <a href="https://github.com/joxyle-jhon/Personal_Financial_Management.git" target="_blank">
+            <a href="https://github.com/Anoreh02/shoe_detector.git" target="_blank">
               <div class="project-box project-box3" id="project-box3">
                 <div class="info-div">
                   <article class="ProjectHeading">Shoe Detector</article>
                   <p class="ProjectDescription">
                     Shoe Detector application powered by YOLOv8 that detects shoes in real-time.
                   </p>
-                  <button class="cta">
-                    <span>Visit GitHub</span>
-                    <svg viewBox="0 0 13 10" height="10px" width="15px">
-                      <path d="M1,5 L11,5"></path>
-                      <polyline points="8 1 12 5 8 9"></polyline>
-                    </svg>
-                  </button>
                 </div>
                 <div class="image-div">
-                  <img src="src/jpg/financialManagement.png" alt="Personal Financial Management Project Image" />
+                  <img src="images/shoedetector.png" alt="Personal Financial Management Project Image" />
                 </div>
               </div>
             </a>
@@ -168,21 +155,11 @@
       <!-- Footer Section -->
       <section class="footer-section-container" id="footer">
         <div class="footer-section">
-          <div class="footer-contact">
-            <article tabindex="0" aria-label="Footer contact information">
-              Get in touch with me through the links below!
-            </article>
-          </div>
-          <div class="social-media">
-            <a href="https://www.linkedin.com/in/jhon-lloyd-omblero" target="_blank">
-              <img src="src/jpg/linkedin-logo.png" alt="LinkedIn Logo" />
-            </a>
-            <a href="https://github.com/joxyle-jhon" target="_blank">
-              <img src="src/jpg/github-logo.png" alt="GitHub Logo" />
-            </a>
-            <a href="https://www.instagram.com/jhonx_jhox/" target="_blank">
-              <img src="src/jpg/instagram-logo.png" alt="Instagram Logo" />
-            </a>
+          <div class="social-links">
+            <a href="https://github.com/Anoreh02" target="_blank" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.facebook.com/cyreh.bayson.96/" target="_blank" aria-label="Facebook"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.instagram.com/cy.anoreh/" target="_blank" aria-label="Facebook"><i class="fa-brands fa-instagram"></i></a>
+        </div>
           </div>
         </div>
       </section>
