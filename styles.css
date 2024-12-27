@@ -9,13 +9,13 @@
 body{
     width: 100%;
     height: 100vh;
-    overflow: hidden;
+    scroll-behavior: smooth;
     background-color: #90B39E;
 }
 nav{
     width: 100%;
     height: 10vh;
-    position: sticky;
+    position: fixed;
 }
 .nav-container{
     width: 100%;
@@ -279,4 +279,247 @@ section{
     .nav-container .links{
         display: flex;
     }
+}
+
+/* General Section Styling */
+.main-container #about,
+.main-container #skills,
+.main-container #contact {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/* About Section */
+.about-section-container {
+    padding: 50px 20px;
+}
+
+.about-section {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.section-heading {
+    margin-bottom: 30px;
+}
+
+.section-heading-article {
+    font-size: 36px;
+    color: #333;
+}
+
+.info-dp-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.about-info {
+    max-width: 600px;
+}
+
+.about-info p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #555;
+}
+
+.dp img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid #333;
+}
+
+  
+/* Media Query for smaller screens */
+@media (max-width: 768px) {
+    .info-dp-section {
+        flex-direction: column;
+    }
+
+    .dp img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .about-info p {
+        font-size: 14px;
+    }
+}
+
+/* Skills Section */
+.skills-section-container {
+    padding: 50px 20px;
+
+  }
+  
+  .skills-section {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .section-heading {
+    margin-bottom: 30px;
+  }
+  
+  .section-heading-article {
+    font-size: 36px;
+    color: #F2E394;
+  }
+  
+  .sectionHeadingP {
+    font-size: 18px;
+    color: white;
+  }
+  
+  .skills-info {
+    display: flex;
+    justify-content: space-around;
+    gap: 40px;
+    flex-wrap: wrap;
+  }
+  
+  .skills-category {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 45%;
+  }
+  
+  .skills-category h3 {
+    font-size: 24px;
+    color: #F2E394;
+    margin-bottom: 15px;
+  }
+  
+  .skills-category ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .skills-category ul li {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 8px;
+  }
+  
+  @media (max-width: 768px) {
+    .skills-category {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+  }
+
+  
+  /* Projects Section */
+  .projects-section-container {
+    padding: 50px 20px;
+  }
+  
+  .projects-section-div {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .project-boxes-div {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .project-box {
+    width: 350px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .project-box:hover {
+    transform: scale(1.05);
+  }
+  
+  .info-div {
+    padding: 20px;
+  }
+  
+  .ProjectHeading {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .ProjectDescription {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 15px;
+  }
+  
+  .cta {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cta:hover {
+    background-color: #0056b3;
+  }
+  
+  .image-div img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  @media (max-width: 768px) {
+    .project-box {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+  }
+  /* Footer Section */
+.footer-section-container {
+    padding: 30px 20px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+}
+
+.footer-section .footer-contact {
+    margin-bottom: 20px;
+}
+
+.footer-section .social-media a {
+    margin: 0 15px;
+    display: inline-block;
+    transition: opacity 0.3s ease;
+}
+
+.footer-section .social-media a:hover {
+    opacity: 0.7;
+}
+
+.footer-section .social-media img {
+    width: 30px;
+    height: 30px;
 }

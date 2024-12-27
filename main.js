@@ -72,3 +72,5 @@ document.getElementById('home-link').addEventListener('click', function (e) {
     homeScreen.style.transform = 'translateX(0)';
     aboutScreen.style.transform = 'translateX(100%)';
 });
+
+
