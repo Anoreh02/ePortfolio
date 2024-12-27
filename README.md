@@ -11,8 +11,6 @@ You can view my ePortfolio live by clicking the link below:
 - **CSS3** – Styling and layout of the website
 - **JavaScript** – For interactive features and functionality
 - **GitHub Pages** – Hosting the site online
-- **Flexbox / CSS Grid** – For responsive design and layout
-- **Responsive Design** – The site is mobile-friendly and adapts to different screen sizes
 
 ## Instructions for Replicating or Contributing
 
